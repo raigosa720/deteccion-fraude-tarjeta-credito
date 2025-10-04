@@ -1,5 +1,15 @@
 # Proyecto: Detección de Fraude en Tarjetas de Crédito con KNIME y Python
 
+## 📂 Dataset
+
+El dataset utilizado para este proyecto proviene de Kaggle:
+
+- [Credit Card Fraud Detection Dataset](https://www.kaggle.com/mlg-ulb/creditcardfraud)
+
+Este dataset contiene **284,807 transacciones** realizadas por titulares de tarjetas en septiembre de 2013, de las cuales solo **492 son fraudes** (~0.172%).  
+Debido a su tamaño (~150 MB), no se incluye en este repositorio. Para reproducir el proyecto, descarga el dataset desde Kaggle y colócalo en la carpeta `data/`.
+
+
 ## 1. Resumen Ejecutivo
 
 Este proyecto aborda el desafío de detectar transacciones fraudulentas en un conjunto de datos de tarjetas de crédito altamente desbalanceado. Se implementó una metodología híbrida, utilizando **KNIME Analytics Platform** para un rápido prototipado y optimización de un modelo base, y posteriormente **Python** para realizar una ingeniería de características avanzada y refinar el modelo.
